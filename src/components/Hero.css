@@ -1,0 +1,14 @@
+.leader-video-mask {
+  mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 300'><text x='50%' y='50%' font-size='160' font-family='Arial' font-weight='bold' text-anchor='middle' alignment-baseline='middle' fill='white'>LEADER</text></svg>");
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+  -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 300'><text x='50%' y='50%' font-size='160' font-family='Arial' font-weight='bold' text-anchor='middle' alignment-baseline='middle' fill='white'>LEADER</text></svg>");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+}
+
+.leader-text {
+  font-size: 0px; /* hide normal text, mask will show it */
+}
