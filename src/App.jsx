@@ -9,7 +9,6 @@ import N from "./components/n";
 import X from "./components/x";
 import Y from "./components/y";
 import Z from "./components/z";
-import Footer from "./components/footer";
 
 export default function App() {
   return (
