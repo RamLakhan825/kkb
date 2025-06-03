@@ -1,10 +1,10 @@
-import './Hero.css'; // Make sure your CSS file is properly imported
+import './Hero.css';
 
 export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative w-full h-screen overflow-hidden bg-black text-white flex flex-col justify-center items-center text-center px-6 md:px-0"
+      className="relative w-full h-screen overflow-hidden bg-black text-white flex flex-col justify-center items-center text-center px-4 sm:px-6"
     >
       {/* Video background inside text mask */}
       <div className="leader-video-mask absolute inset-0 z-10">
@@ -22,36 +22,35 @@ export default function Hero() {
         </video>
       </div>
 
-      {/* Other text content */}
+      {/* Text content */}
       <div className="relative z-20 mt-10 md:mt-24 max-w-5xl">
-        <h1 className="text-2xl md:text-5xl font-bold leading-snug mb-8">
+        <h1 className="text-2xl md:text-5xl font-bold leading-snug mb-6">
           BECOME THE
         </h1>
 
-        <div className="my-6">
-          {/* LEADER text is only visible via video mask */}
-          <h1 className="leader-text text-7xl md:text-8xl font-extrabold leading-tight">
+        <div className="my-4">
+          <h1 className="leader-text text-5xl sm:text-6xl md:text-8xl font-extrabold leading-tight">
             LEADER
           </h1>
         </div>
-
-        <h2 className="text-xl md:text-4xl font-semibold leading-relaxed mb-2">
+        <br />
+        <h2 className="text-lg sm:text-xl md:text-4xl font-semibold leading-relaxed mb-2">
           YOU WERE MEANT
         </h2>
-        <h2 className="text-xl md:text-4xl font-semibold leading-relaxed mb-6">
+        <h2 className="text-lg sm:text-xl md:text-4xl font-semibold leading-relaxed mb-6">
           TO BE"
         </h2>
 
-        <p className="text-lg md:text-2xl font-semibold">
+        <p className="text-base sm:text-lg md:text-2xl font-semibold">
           - KK BHAGCHANDANI
         </p>
       </div>
 
-      {/* Overlapping image shifted slightly right */}
+      {/* Overlapping image */}
       <img
         src="https://static.wixstatic.com/media/fdb6b8_3a2810b3adf04c65b2531e93c7b28e4e~mv2.webp/v1/fill/w_501,h_751,al_c,q_90,enc_avif,quality_auto/IMG_4437%20copy.webp"
         alt="KK Bhagchandani"
-        className="absolute bottom-0 right-4 md:right-0 w-[220px] md:w-[360px] object-contain z-30 translate-x-8 md:translate-x-16"
+        className="absolute bottom-0 right-2 sm:right-4 md:right-0 w-[160px] sm:w-[200px] md:w-[360px] object-contain z-30 translate-x-2 sm:translate-x-8 md:translate-x-16"
       />
     </section>
   );
